@@ -1,13 +1,14 @@
-call pathogen#infect()
-
-set background=light
+call plug#begin()
+Plug 'arcticicestudio/nord-vim'
+Plug 'pangloss/vim-javascript'
+call plug#end()
 
 " syntax color stuff
 syntax enable
 filetype indent plugin on
 
 set background=dark
-colorscheme solarized
+colorscheme nord
 
 set ruler
 set mouse=a
